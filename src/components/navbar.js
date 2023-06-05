@@ -13,12 +13,12 @@ function Navbar() {
                 </div>
                 <div>
                     <Link to='/' style={{'all': 'unset'}}>
-                        <h2>About Me</h2>
+                        <h3>About Me</h3>
                     </Link>
                 </div>
                 <div>
                     <Link to='/projects' style={{'all': 'unset'}}>
-                        <h2>Projects</h2>
+                        <h3>Projects</h3>
                     </Link>
                 </div>
             </div>
