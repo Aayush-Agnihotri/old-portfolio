@@ -1,20 +1,26 @@
 import React from 'react';
 import './projects.css';
+import Navbar from '../components/navbar';
+
 import MusicMaster from '../images/MusicMaster.png';
+import NJoy from '../images/NJoy.png';
+import TownMate from '../images/TownMate.png';
 
 
 function Projects() {
 
     return (
         <>
+            <Navbar />
+
             <div className='header'>
-                <h1 className='title'>My Projects</h1>
+                <h1 className='title'>Featured Projects</h1>
             </div>
 
             <div className='cards'>
                 <div className='card'>
                     <div className='image-container'>
-                        <img src={MusicMaster} alt='Screenshot' className='img' />
+                        <img src={MusicMaster} alt='MusicMaster' className='img' />
                     </div>
                     <div className='text-container'>
                         <h2 className='card-title'>MusicMaster
@@ -28,13 +34,59 @@ function Projects() {
                             <button className='btn'>
                                 <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>GitHub </span>
                                 <img style={{"verticalAlign": "middle"}} width="24" height="24" src="https://img.icons8.com/material-rounded/24/FFFFFF/github.png" alt="github"/>
-                                </button>
+                            </button>
                         </a>
                     </div>
                 </div>
 
-            </div>
+                <div className='card'>
+                    <div className='image-container'>
+                        <img className='img' src={NJoy} alt='NJoy' />
+                    </div>
+                    <div className='text-container'>
+                        <h2 className='card-title'>NJoy
+                            <span className='card-date'>January 2022 - March 2022</span>
+                        </h2>
+                        <h3 className='card-subtitle'>React, Firebase</h3>
+                        <p className='card-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
+                    </div>
+                    <div className='btn-container'>
+                        <a style={{"all":"unset"}} href="https://github.com/Aayush-Agnihotri/NJoy" target="_blank" rel="noopener noreferrer">
+                            <button className='btn'>
+                                <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>GitHub </span>
+                                <img style={{"verticalAlign": "middle"}} width="24" height="24" src="https://img.icons8.com/material-rounded/24/FFFFFF/github.png" alt="github"/>
+                            </button>
+                        </a>
+                    </div>
+                </div>
 
+                <div className='card' style={{"marginBottom": "3%"}}>
+                    <div className='image-container'>
+                        <img className='img' src={TownMate} alt='NJoy' />
+                    </div>
+                    <div className='text-container'>
+                        <h2 className='card-title'>TownMate
+                            <span className='card-date'>January 2021 - March 2021</span>
+                        </h2>
+                        <h3 className='card-subtitle'>Java, Airtable</h3>
+                        <p className='card-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
+                    </div>
+                    <div className='btn-container'>
+                        <a style={{"all":"unset"}} href="https://github.com/Aayush-Agnihotri/TownMate" target="_blank" rel="noopener noreferrer">
+                            <button className='btn'>
+                                <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>GitHub </span>
+                                <img style={{"verticalAlign": "middle"}} width="24" height="24" src="https://img.icons8.com/material-rounded/24/FFFFFF/github.png" alt="github"/>
+                            </button>
+                        </a>
+                        <a style={{"all":"unset"}} href="https://tsaweb.org" target="_blank" rel="noopener noreferrer">
+                            <button className='btn'>
+                                <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>TSA Website </span>
+                                <img style={{"verticalAlign": "middle"}} width="20" height="20" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FFFFFF/external-share-arrows-pack-tanah-basah-basic-outline-tanah-basah.png" alt="TSA Website"/>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
