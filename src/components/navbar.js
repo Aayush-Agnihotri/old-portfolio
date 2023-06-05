@@ -1,7 +1,7 @@
 import './navbar.css'
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar({ navLinks }) {
     return (
       <>
         <div className='navbar'>
@@ -11,18 +11,17 @@ function Navbar() {
                         <img width="45" height="45" src="https://img.icons8.com/material-outlined/48/FFFFFF/font-style-formatting.png" alt="Logo"/>
                     </Link>
                 </div>
-                <div>
-                    <Link to='/' style={{'all': 'unset'}}>
-                        <h3>About Me</h3>
-                    </Link>
-                </div>
-                <div>
-                    <Link to='/projects' style={{'all': 'unset'}}>
+                {!navLinks ?
+                
+                <div className='projects-link'>
+                    <Link to='/projects' style={{'all': 'unset', "cursor":"pointer"}}>
                         <h3>Projects</h3>
                     </Link>
                 </div>
+                : <></>}
             </div>
             
+            {navLinks ? 
             <div className='nav-links'>
                 <div>
                     <a href='#' target="_blank" rel="noopener noreferrer">
@@ -45,6 +44,8 @@ function Navbar() {
                     </a>
                 </div>
             </div>
+            : <></>}
+
         </div>
       </>
     );

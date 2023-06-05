@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './projects.css';
 import Navbar from '../components/navbar';
 
@@ -9,9 +9,45 @@ import TownMate from '../images/TownMate.png';
 
 function Projects() {
 
+    const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+  	function getCurrentDimension(){
+    	return {
+      		width: window.innerWidth,
+      		height: window.innerHeight
+    	}
+  	}
+  
+  	useEffect(() => {
+    	const updateDimension = () => {
+      		setScreenSize(getCurrentDimension())
+    	}
+    	window.addEventListener('resize', updateDimension);
+
+        if (screenSize.width < 500) {
+            const dates = document.querySelectorAll('.card-date');
+            for (var i = 0; i < dates.length; i++) {
+                dates[i].style.display = 'none';
+            }
+        }
+
+        if (screenSize.width < 600) {
+            const cards = document.querySelectorAll('.card');
+            const images = document.querySelectorAll('.img');
+            for (var g = 0; g < cards.length; g++) {
+                cards[g].style.width = `${screenSize.width * 0.8}px`;
+                images[g].style.width = `${screenSize.width * 0.8}px`;
+            }
+        }     
+        
+    	return(() => {
+        	window.removeEventListener('resize', updateDimension);
+    	})
+  	}, [screenSize.width])
+
     return (
         <>
-            <Navbar />
+            <Navbar navLinks={true} />
 
             <div className='header'>
                 <h1 className='title'>Featured Projects</h1>
@@ -80,7 +116,7 @@ function Projects() {
                         </a>
                         <a style={{"all":"unset"}} href="https://tsaweb.org" target="_blank" rel="noopener noreferrer">
                             <button className='btn'>
-                                <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>TSA Website </span>
+                                <span style={{"fontWeight": "bold", "verticalAlign": "middle"}}>TSA </span>
                                 <img style={{"verticalAlign": "middle"}} width="20" height="20" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FFFFFF/external-share-arrows-pack-tanah-basah-basic-outline-tanah-basah.png" alt="TSA Website"/>
                             </button>
                         </a>

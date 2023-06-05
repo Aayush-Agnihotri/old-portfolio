@@ -1,12 +1,19 @@
+.body {
+    width: 100%;
+}
+
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: black; */
+    background-color: black;
+    background: linear-gradient(to top, #131B8F 0%, #000066 35% ,#000000 100%);
 }
 
 .logo {
-    width: 100%;
+    width: 65%;
+    padding: 10px;
     padding-left: 5%;
     display: flex;
     align-items: center;
@@ -14,8 +21,47 @@
 }
 
 .nav-links {
-    padding: 30px;
-    padding-right: 5%;
     display: flex;
-    gap: 15%;
+    padding: 23px;
+    padding-right: 5%;
+}
+
+.nav-links a {
+    padding: 30px;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 766px) {
+    .nav-links a {
+        padding: 20px;
+    }
+
+    .logo {
+        gap: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-links a {
+        padding: 10px;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 80%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .nav-links a {
+        padding: 5px;
+    }
 }
