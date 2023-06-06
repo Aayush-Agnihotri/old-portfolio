@@ -84,7 +84,7 @@ function Projects() {
                             <span className='card-date'>January 2022 - March 2022</span>
                         </h2>
                         <h3 className='card-subtitle'>React, Firebase</h3>
-                        <p className='card-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
+                        <p className='card-desc'>NJoy is the go-to trip-advising app created for the Garden State, providing information about New Jersey's favorite places and activities. NJoy allows users to plan their next trip, read and add reviews about locations, get directions, and much more.</p>
                     </div>
                     <div className='btn-container'>
                         <a style={{"all":"unset"}} href="https://github.com/Aayush-Agnihotri/NJoy" target="_blank" rel="noopener noreferrer">
@@ -105,7 +105,7 @@ function Projects() {
                             <span className='card-date'>January 2021 - March 2021</span>
                         </h2>
                         <h3 className='card-subtitle'>Java, Airtable</h3>
-                        <p className='card-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
+                        <p className='card-desc'>TownMate is a cross-platform app that gives newcomers to a community information about restaurants, shopping malls, public transportation, and more. Awarded 3rd place for TSA National Software Development Competition.</p>
                     </div>
                     <div className='btn-container'>
                         <a style={{"all":"unset"}} href="https://github.com/Aayush-Agnihotri/TownMate" target="_blank" rel="noopener noreferrer">
