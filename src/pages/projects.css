@@ -73,6 +73,10 @@
     color: gray;
 }
 
+.card-subtitle:hover {
+    text-decoration: none;
+}
+
 .card-desc {
     color: black;
     margin-top: -10px;
@@ -90,7 +94,7 @@
 
 .btn {
     cursor: pointer;
-    background-color: #131B8F;
+    background-color: rgb(15, 155, 217);
     border: none;
     color: white;
     padding: 5px 20px;
