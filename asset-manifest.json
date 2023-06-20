@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7a3bbb8.css",
+    "main.css": "/static/css/main.91dca095.css",
     "main.js": "/static/js/main.cc111de2.js",
     "static/media/NJoy.png": "/static/media/NJoy.d4ed0aad28e5908153f2.png",
     "static/media/MusicMaster.png": "/static/media/MusicMaster.228104ae0853cfd21af9.png",
@@ -8,11 +8,11 @@
     "static/media/Aayush_Agnihotri_Resume.pdf": "/static/media/Aayush_Agnihotri_Resume.f16e6054adb6f7eab5f7.pdf",
     "static/media/Aayush_Agnihotri_Headshot.jpeg": "/static/media/Aayush_Agnihotri_Headshot.49c29f986292e636cb65.jpeg",
     "index.html": "/index.html",
-    "main.d7a3bbb8.css.map": "/static/css/main.d7a3bbb8.css.map",
+    "main.91dca095.css.map": "/static/css/main.91dca095.css.map",
     "main.cc111de2.js.map": "/static/js/main.cc111de2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7a3bbb8.css",
+    "static/css/main.91dca095.css",
     "static/js/main.cc111de2.js"
   ]
 }
