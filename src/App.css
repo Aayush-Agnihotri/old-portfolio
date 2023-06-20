@@ -7,7 +7,7 @@
 
 html {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 body {
@@ -16,5 +16,6 @@ body {
   margin: 0%;
   background-repeat: no-repeat;
   background: rgba(0, 0, 0, 0.95);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 30%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%);
+
 }
