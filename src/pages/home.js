@@ -24,9 +24,9 @@ function Home() {
 
                 <div className='links'>
                 <div>
-                    <a href='#' target="_blank" rel="noopener noreferrer">
+                    <Link to={'#'}>
                         <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/resume.png" alt="Resume"/>
-                    </a>
+                    </Link>
                 </div>
                 <div>
                     <a href='https://www.linkedin.com/in/aayush-agnihotri/' target="_blank" rel="noopener noreferrer">
