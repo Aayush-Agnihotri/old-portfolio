@@ -85,11 +85,15 @@
     padding: 30px;
 }
 
-@media screen and (max-width:766px) {
+@media screen and (max-width: 808px) {
     .desc-container {
         text-align: center;
         width: 90%;
     }
+}
+
+
+@media screen and (max-width:766px) {
     .links a {
         padding: 20px;
     }
