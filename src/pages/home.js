@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Navbar from '../components/navbar';
 import Headshot from '../images/Aayush_Agnihotri_Headshot.jpeg';
+import Resume from '../components/Aayush_Agnihotri_Resume.pdf';
 
 function Home() {
     return (
@@ -24,9 +25,9 @@ function Home() {
 
                 <div className='links'>
                 <div>
-                    <Link to={'#'}>
+                    <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/resume.png" alt="Resume"/>
-                    </Link>
+                    </a>
                 </div>
                 <div>
                     <a href='https://www.linkedin.com/in/aayush-agnihotri/' target="_blank" rel="noopener noreferrer">

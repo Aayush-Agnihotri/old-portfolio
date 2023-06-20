@@ -1,5 +1,6 @@
 import './navbar.css'
 import { Link } from 'react-router-dom';
+import Resume from '../components/Aayush_Agnihotri_Resume.pdf';
 
 function Navbar({ navLinks }) {
     return (
@@ -24,7 +25,7 @@ function Navbar({ navLinks }) {
             {navLinks ? 
             <div className='nav-links'>
                 <div>
-                    <a href='#' target="_blank" rel="noopener noreferrer">
+                    <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/resume.png" alt="Resume"/>
                     </a>
                 </div>
