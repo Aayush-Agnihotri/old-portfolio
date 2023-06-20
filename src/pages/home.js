@@ -20,7 +20,7 @@ function Home() {
                     <p className='splash-desc'>I am currently a student at <span className='b'>Cornell University</span>
                     , majoring in <span className='b'>Computer Science</span> in the <a href='https://as.cornell.edu' target="_blank" rel="noopener noreferrer">College of Arts and Sciences</a> with a minor in
                     <span className='b'> Business</span>. I have experience in <span className='b'>software engineering</span>, primarily in <span className='b'>web and full stack development</span>.</p>
-                    <p className='splash-desc'>I aim to leverage technology and data to build useful and innovative products for people. See my projects <Link to='/projects' style={{'all': 'unset', "cursor":"pointer", "textDecoration": "underline"}}>here</Link>.</p>
+                    <p className='splash-desc'>I aim to leverage technology and data to build useful and innovative products. See my projects <Link to='/projects' style={{'all': 'unset', "cursor":"pointer", "textDecoration": "underline"}}>here</Link>.</p>
                 </div>
 
                 <br></br>
