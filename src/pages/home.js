@@ -23,6 +23,8 @@ function Home() {
                     <p className='splash-desc'>I aim to leverage technology and data to build useful and innovative products for people. See my projects <Link to='/projects' style={{'all': 'unset', "cursor":"pointer", "textDecoration": "underline"}}>here</Link>.</p>
                 </div>
 
+                <br></br>
+
                 <div className='links'>
                 <div>
                     <a href={Resume} target="_blank" rel="noopener noreferrer">
