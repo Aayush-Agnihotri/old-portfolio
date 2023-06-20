@@ -64,4 +64,8 @@ h3:hover{
     .nav-links a {
         padding: 5px;
     }
+
+    .nav-links {
+        gap: 20px;
+    }
 }
