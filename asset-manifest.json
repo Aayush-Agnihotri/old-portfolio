@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aayush-agnihotri.github.io/static/css/main.f5ac1b90.css",
+    "main.js": "/aayush-agnihotri.github.io/static/js/main.25ca918a.js",
+    "static/media/NJoy.png": "/aayush-agnihotri.github.io/static/media/NJoy.d4ed0aad28e5908153f2.png",
+    "static/media/MusicMaster.png": "/aayush-agnihotri.github.io/static/media/MusicMaster.228104ae0853cfd21af9.png",
+    "static/media/TownMate.png": "/aayush-agnihotri.github.io/static/media/TownMate.4217fef2b2eeea1e749b.png",
+    "static/media/Aayush_Agnihotri_Headshot.jpeg": "/aayush-agnihotri.github.io/static/media/Aayush_Agnihotri_Headshot.49c29f986292e636cb65.jpeg",
+    "index.html": "/aayush-agnihotri.github.io/index.html",
+    "main.f5ac1b90.css.map": "/aayush-agnihotri.github.io/static/css/main.f5ac1b90.css.map",
+    "main.25ca918a.js.map": "/aayush-agnihotri.github.io/static/js/main.25ca918a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5ac1b90.css",
+    "static/js/main.25ca918a.js"
+  ]
+}
