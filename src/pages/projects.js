@@ -62,8 +62,8 @@ function Projects() {
                         <h2 className='card-title'>MusicMaster
                             <span className='card-date'>January 2023 - April 2023</span>
                         </h2>
-                        <h3 className='card-subtitle'>Tech stack</h3>
-                        <p className='card-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
+                        <h3 className='card-subtitle'>React, Flask, PostgreSQL</h3>
+                        <p className='card-desc'>MusicMaster is a music recommendation engine built on the Spotify API and song dataset which utilizes machine learning and content-based filtering to recommend songs. Users can login with their Spotify account to add recommended songs to their playlists.</p>
                     </div>
                     <div className='btn-container'>
                         <a style={{"all":"unset"}} href="https://github.com/Aayush-Agnihotri/musicmaster" target="_blank" rel="noopener noreferrer">
